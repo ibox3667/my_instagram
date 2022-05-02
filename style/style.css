@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Radio+Canada:wght@300&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 600px;
+    height: 1000px;
+    margin: 0px auto;
+    border: 1px solid white;
+    color: white;
+}
+
+.navbar .row .navname p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5px;
+}
+
+.navbar .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navname{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px 0px 15px;
+}
+
+.navname button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.navbar .navikon{
+    align-items: center;
+}
+
+.navbar .navikon button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    width: 64px;
+    height: 70px;
+}
+
+.profilFoto{
+    display: flex;
+    margin-left: 10px;
+    text-align: center;
+    height: 135px;
+}
+
+.profilFoto .foto{
+    width: 22%;
+    height: 128px;
+    border-radius: 50%;
+    border: 3px solid  #292930;
+    cursor: pointer;
+}
+
+.profilFoto .foto img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profilFoto .publics{
+    width: 25%;
+    height: 128px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+.profilFoto .publics h4{
+    letter-spacing: 0px;
+    font-size: 25px;
+}
+
+.about{
+    margin-top: 5px;
+}
+
+.about .opis{
+    margin-left: 10px;
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .opis:nth-child(3){
+    margin-left: 21px;
+}
+
+.about .silka{
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.about .silka a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
